@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:20
+-keep class com.coolmusic.musician.MainActivity { <init>(...); }
+
+# view res/layout/main.xml #generated:15
+-keep class com.coolmusic.musician.MusicView { <init>(...); }
+
+# view res/layout/dialog.xml #generated:39
+-keep class com.coolmusic.musician.SettingSeekBar { <init>(...); }
+

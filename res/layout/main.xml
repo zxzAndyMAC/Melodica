@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:id="@+id/fullscreen_content_2"
+        android:visibility="gone" >
+	    
+        <com.coolmusic.musician.MusicView           
+            android:layout_width="match_parent"  
+ 			android:layout_height="match_parent"
+ 			android:id="@+id/suview"/>
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullscreen_content"
+        android:fitsSystemWindows="true" >
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:keepScreenOn="true"
+	        android:text="@string/dummy_content"
+	        android:textColor="#33b5e5"
+	        android:textSize="50sp"
+	        android:textStyle="bold" />
+	    
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:layout_marginTop="100dip"
+	        android:keepScreenOn="true"
+	        android:text="@string/dummy_intro"
+	        android:textColor="#ffffff"
+	        android:textSize="25sp"
+	        android:textStyle="normal" />
+    </FrameLayout>
+    
+
+
+</FrameLayout>

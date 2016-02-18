@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">靈感音樂</string>
+    <string name="dummy_button">消除選中方塊</string>
+    <string name="dummy_content">激發你的音樂細胞</string>
+    <string name="dummy_intro">\t\n(向上滑動推出菜單)</string>
+    <string name="dummy_intro_2">(向上滑動屏幕推出此菜單)</string>
+    <string name="setting">設置</string>
+    <string name="speeding">速度: </string>
+    <string name="custom">自定義音符文件</string>
+    <string name="def">默認音符文件</string>
+    <string name="but">消除選中方塊</string>
+    <string name="Warn">提醒</string>
+    <string name="sure">  確認  </string>
+    <string name="txt">/sdcard/Music/..下沒有找到音符文件(01.wav~10.wav),請將01.wav到10.wav的音符文件放置/sdcard/Music/下 ,否則將播放默認音符文件。</string>
+	<string name="share">  分享    </string>
+    <string name="txt2">我正在玩靈感音樂,非常簡單好玩,快來製作屬於你自己的音樂吧!\t\n下面是鏈接地址 https://play.google.com/store/apps/details?id=com.coolmusic.musician</string>
+</resources>

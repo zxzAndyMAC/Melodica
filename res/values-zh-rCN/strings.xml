@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">万能音乐炫台</string>
+    <string name="dummy_button">消除选中方块</string>
+    <string name="dummy_content">激发你的音乐细胞</string>
+    <string name="dummy_intro">\t\n(向上滑动屏幕推出菜单)</string>
+    <string name="dummy_intro_2">(向上滑动屏幕推出此菜单)</string>
+    <string name="setting">设置</string>
+    <string name="speeding">速度: </string>
+    <string name="custom">自定义音符文件</string>
+    <string name="def">默认音符文件</string>
+    <string name="but">消除选中方块</string>
+    <string name="Warn">提醒</string>
+    <string name="sure">  确认  </string>
+    <string name="txt">/sdcard/Music/..下没有找到音符文件(01.wav~10.wav),请将01.wav到10.wav的音符文件放置 /sdcard/Music/下,否则将播放默认音符文件。</string>
+	<string name="share">  分享    </string>
+	<string name="txt2">我正在玩灵感音乐,非常简单好玩,快来制作属于你自己的音乐吧!\t\n下面是链接地址 https://play.google.com/store/apps/details?id=com.coolmusic.musician</string>
+</resources>

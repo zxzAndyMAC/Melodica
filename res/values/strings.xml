@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Musician</string>
+    <string name="dummy_button">Clear Blocks</string>
+    <string name="dummy_content">Activate Your Music Cell</string>
+    <string name="dummy_intro">\t\n(Slide up to pull out menu)</string>
+    <string name="dummy_intro_2">(Slide up the screen to pull out this menu)</string>
+    <string name="setting">Setting</string>
+    <string name="speeding">Speed: </string>
+    <string name="custom">custom note file</string>
+    <string name="def">Default note file</string>
+    <string name="but">Clear Blocks</string>
+    <string name="Warn">Warning</string>
+    <string name="sure">  OK  </string>
+    <string name="txt">no note file found(01.wav~10.wav) under the /sdcard/Music/.. \t\nif you want to play custom note files please put your note files from 01.wav to 10.wav under the /sdcard/Music/,Otherwise will play default note files</string>
+	<string name="share">  Share  </string>
+    <string name="txt2">I found a amazing music app,very simple and fun,make your own music!\t\nhere the url https://play.google.com/store/apps/details?id=com.coolmusic.musician</string>
+</resources>

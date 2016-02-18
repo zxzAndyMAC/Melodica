@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"   
+    android:padding="10dip">
+            
+    <TextView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:id="@+id/settex"
+	    android:text="@string/setting"
+	    android:textSize="25sp"
+	    android:textStyle="bold" 
+	/>   
+	    
+    <View  
+	    android:id="@+id/line2"
+	    android:layout_width="match_parent"  
+	    android:layout_height="1dp" 
+	    android:layout_marginTop="5dip"
+	    android:layout_below="@id/settex"		   
+	    android:background="?android:attr/listDivider"
+	/> 
+	
+    <TextView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/line2"	
+	    android:id="@+id/speed"
+	    android:layout_alignParentLeft="true"
+	    android:text="@string/speeding"
+	    android:layout_marginTop="7dip"
+	    android:textSize="15sp"
+	    android:textStyle="normal"
+	 />
+	    
+     <com.coolmusic.musician.SettingSeekBar 
+        android:id="@+id/seek1"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:layout_below="@id/line2"
+        android:layout_toRightOf="@id/speed"
+        
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="5dip"
+        android:max="1000"  
+        android:progress="200"
+     />
+     
+     <View  
+	    android:id="@+id/line3"
+	    android:layout_width="match_parent"  
+	    android:layout_height="1dp" 
+	    android:layout_marginTop="5dip"
+	    android:layout_below="@id/seek1"		   
+	    android:background="?android:attr/listDivider"
+	/> 
+	
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line3"
+        android:layout_marginTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:textOff="@string/def"
+        android:textOn="@string/custom" 
+    />
+    
+    <View  
+	    android:id="@+id/line4"
+	    android:layout_width="match_parent"  
+	    android:layout_height="1dp" 
+	    android:layout_marginTop="5dip"
+	    android:layout_below="@id/toggleButton1"		   
+	    android:background="?android:attr/listDivider"
+	/> 
+	
+    <Button 
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line4"
+        android:layout_marginTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="@string/but"
+    />
+    
+    <View  
+	    android:id="@+id/line"
+	    android:layout_width="match_parent"  
+	    android:layout_height="1dp" 
+	    android:layout_marginTop="5dip"
+	    android:layout_below="@id/Button1"		   
+	    android:background="?android:attr/listDivider"
+	/> 
+	
+    <Button 
+        android:id="@+id/Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="@string/share"
+    />
+	
+    <View  
+	    android:id="@+id/line6"
+	    android:layout_width="match_parent"  
+	    android:layout_height="1dp" 
+	    android:layout_marginTop="5dip"
+	    android:layout_below="@id/Button2"		   
+	    android:background="?android:attr/listDivider"
+	/>
+    
+    <TextView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/line6"	
+	    android:layout_centerHorizontal="true"
+	    android:text="@string/dummy_intro_2"
+	    android:layout_marginTop="7dip"
+	    android:textSize="15sp"
+	    android:textStyle="normal"
+	 />
+              
+</RelativeLayout>  
